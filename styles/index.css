@@ -4,8 +4,8 @@
 
 /* selectors */
 div {
-    /* border: 1px red solid; */
-    
+    /*border: 1px red solid;*/
+
 }
 
 .main-content {
@@ -24,9 +24,25 @@ div {
     background-color: rgba(12, 12, 12, 0.2);
 }
 
-header > ul {
-    list-style: none;
+header>ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none
 }
+
+/* home {
+   
+}
+
+#exerience {
+    text-decoration: none; 
+    text-align: left;
+ } 
+
+.contact {
+    text-decoration: none;
+    text-align: right;
+} */
 
 /* Changing colors, changing fontsize, borders, box properties */
 
